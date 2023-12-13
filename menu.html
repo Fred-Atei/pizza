@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo12.jpg" type="image/x-icon"><link rel="shortcut icon" href="assets/images/logo12.jpg" type="image/x-icon">
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <!-- <link rel="stylesheet" href="assets/theme/css/style.css"> -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap"></noscript>
+    <link rel="preload" as="style" href="assets/css/additional.css"><link rel="stylesheet" href="assets/mobirise/css/additional.css" type="text/css">
+    <style>
+        body, html {height: 100%}
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+        .menu {display: none}
+        .bgimg {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("/w3images/pizza.jpg");
+          min-height: 90%;
+        }
+    </style>
+    
+</head>
+<body>
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+          <div class="container">
+            <div class="navbar-brand">
+              <span class="navbar-caption-wrap">
+                <a class="navbar-caption text-black display-4" href=""></a>
+              </span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-bs-toggle="collapse" data-target="#navbarSupportedContent"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                <li class="nav-item">
+                  <a class="nav-link link text-white display-4" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link text-white display-4" href="about.html"
+                    aria-expanded="false">About</a>
+                </li>
+              </ul>
+              <div class="navbar-buttons mbr-section-btn">
+                <a class="btn btn-primary display-4" href="order.html">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <br>
+    <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+        <div class="w3-content">
+        
+          <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+          <div class="w3-row w3-center w3-border w3-border-dark-grey">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+              <div class="w3-col s4 tablink w3-padding-large w3-hover-yellow">Pizza</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+              <div class="w3-col s4 tablink w3-padding-large w3-hover-yellow">Vegan</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+              <div class="w3-col s4 tablink w3-padding-large w3-hover-yellow">Coming Soon</div>
+            </a>
+          </div>
+      
+          <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+            <h1><b>cheese Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+            <hr>
+         
+            <h1><b>BBQ Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">BBQ Sauce, fresh mozzarella, chicken, onions, cilantro</p>
+            <hr>
+            
+            <h1><b>Chicken Tikka</b> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken tikka, onions</p>
+            <hr>
+      
+            <h1><b>Pineapple pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">mozzarella, fresh pineapple, Turkey bacon, fresh basil</p>
+            <hr>
+      
+            <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+            <hr>
+      
+            <h1><b>Steak Pizza</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, mozzarella, steak, fresh arugula</p>
+          </div>
+      
+          <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+            <h1><b>pesto pizza</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">pesto, basil, tomatoes, onions</p>
+            <hr>
+         
+            <h1><b>vegan cheese pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">Vegan cheese, tomatoes</p>
+            <hr>
+            
+            <h1><b>crumble tofu</b> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, onions, tofu</p>
+            <hr>
+      
+            <h1><b>Mushroom pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">order</span></h1>
+            <p class="w3-text-grey">Mushrooms, onions, peppers, vegan cheese</p>
+            <br>
+            <br>
+            <br>
+            <br>
+          
+           
+          </div>
+      
+      
+          <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+            <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-red w3-round">soon</span></h1>
+            <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+            <hr>
+         
+            <h1><b>Pizza Pie</b> <span class="w3-right w3-tag w3-red w3-round">soon</span></h1>
+            <p class="w3-text-grey">Choose any Pizza option</p>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            
+          </div><br>
+      
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/ytplayer/index.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+    <script>
+        // Tabbed Menu
+        function openMenu(evt, menuName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("menu");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+             tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+          }
+          document.getElementById(menuName).style.display = "block";
+          evt.currentTarget.firstElementChild.className += " w3-red";
+        }
+        document.getElementById("myLink").click();
+        </script>
+</body>
+</html>
